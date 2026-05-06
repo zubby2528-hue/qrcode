@@ -16,5 +16,5 @@ if st.button("Generate QR"):
       
       with open("qr.png","rb") as f:
           st.download_button("Download QR", f, file_name="qr.png")
-else:
+    else:
    st.warning("Please enter some text")
